@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* Body & General Style */
+
+@font-face {
+	font-family: VelodromaBasic-Regular;
+	src: url(type/VelodromaBasic-Regular.otf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: VelodromaBasic-SuperWide;
+	src: url(type/VelodromaBasic-SuperWide.otf);
+}
+
+@font-face {
+	font-family: VelodromaBasic-Wide;
+	src: url(type/VelodromaBasic-Wide.otf);
+}
+
+body {
+	background-color: #db325e;
+}
+
+#main-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	background-color: #db325e;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/* Logo */
+
+#logo img {
+	width: 165px;
+	height: 165px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10%;
+}
+
+#type img {
+	width: 40%;
+}
+
+
+
+/* Type */
+
+#type {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	margin-top: 4%;
+}
+
+h1, h2, h3 {
+	padding-top: 10px;	
+}
+
+h2, h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+
+
+/* Footer */
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    color: #8c0327;
+}
+
+footer p {
+    padding-top: 15px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
