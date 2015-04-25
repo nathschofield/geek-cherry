@@ -1,0 +1,36 @@
+$color: #369;
+
+@function pxify($value) {
+    @return unquote($value + "px")
+}
+
+div {
+    height: 100px;
+    width: 250px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.color {
+    background: $color;
+}
+
+.red, .green, .blue {
+    float: left;
+}
+
+.red {
+    background: red;
+    width: pxify(red($color));
+}
+
+.green {
+    background: green;
+    width: pxify(green($color));
+}
+
+.blue {
+    background: blue;
+    width: pxify(blue($color));
+}

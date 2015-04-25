@@ -1,0 +1,24 @@
+div {
+  height: 100px;
+  width: 250px;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  margin-right: 5px; }
+
+.color {
+  background: #369; }
+
+.red, .green, .blue {
+  float: left; }
+
+.red {
+  background: red;
+  width: 51px; }
+
+.green {
+  background: green;
+  width: 102px; }
+
+.blue {
+  background: blue;
+  width: 153px; }
